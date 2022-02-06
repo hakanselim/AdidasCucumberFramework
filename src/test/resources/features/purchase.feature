@@ -1,7 +1,9 @@
-Feature: Adidas Order Placement Functionalities
-  Agile Story: As a user, I should be able to place order from Website so that I can shop online
 
+
+
+Feature: Adidas Order Placement Functionalities
+  @wip
   Scenario: Placing a successful order
     Given User is on the home page
-    When User adds "product from category"
+    When User adds "product" from "category"
 
